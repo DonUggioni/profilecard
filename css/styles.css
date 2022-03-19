@@ -9,7 +9,7 @@ body {
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: 'Kumbh Sans', sans-serif;  
+  font-family: 'Kumbh Sans', sans-serif;
   min-height: 100vh;
   background-color: var(--dark-cyan);
   display: flex;
@@ -21,13 +21,13 @@ body {
   background-position: right 45vw bottom 45vh, left 50vw top 50vh;
 }
 
-p{
-    margin: 0;
+p {
+  margin: 0;
 }
 
-hr{
+hr {
   margin: 0;
-  color: var(--dark-grey);
+  color: var(--desaturated-blue);
   border-top: 2px;
 }
 
@@ -54,26 +54,28 @@ hr{
   text-align: center;
 }
 
-.name{
+.name {
   font-weight: 700;
   font-size: 18px;
   padding-bottom: 8px;
+  color: var(--desaturated-blue);
 }
 
-.count{
+.count {
   font-weight: 700;
   font-size: 18px;
   padding-bottom: 5px;
+  color: var(--desaturated-blue);
 }
 
-.city{
+.city {
   font-size: 14px;
   font-weight: 400;
   color: var(--dark-grey);
   padding-bottom: 28px;
 }
 
-.age{
+.age {
   color: var(--dark-grey);
   font-weight: 400;
   font-size: 18px;
@@ -81,7 +83,7 @@ hr{
 }
 
 .victor-image {
-  margin-top: -65px;
+  margin-top: -60px;
   border-radius: 100%;
   border: 5px solid white;
   padding-bottom: 10px;
@@ -95,7 +97,7 @@ hr{
   padding-top: 25px;
 }
 
-.count-description{
+.count-description {
   color: var(--dark-grey);
   font-size: 9px;
   letter-spacing: 1.5px;
